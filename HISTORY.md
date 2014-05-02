@@ -10,6 +10,9 @@ vCurrent
 * Split tests up into 2 separate stages, onTheFly and postStage and refactored all existing tests to
   match new architecture.
 * Implemented ignore argument with minimatch globbing.
+* Introduced verbose option to show progress as tests are completed. Also added final report showing
+  total errors and warnings or success message.
+* Introduced quiet and silent options.
 
 
 v0.3.0
